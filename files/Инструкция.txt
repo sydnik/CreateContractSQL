@@ -1,0 +1,98 @@
+
+
+Название договоров шаблонов должно быть только так и никак иначе:
+
+Базовый договор.docx
+Договор UpSale.docx
+Дополнительное соглашение БД.docx
+Дополнительно соглашение UpSale.docx
+
+
+
+
+
+В идеале копировать, а не вводить  ручную. 
+У ворда есть прикол добавлять символы которые обычный юзер не видет,
+ и из за этого программа не видит что нужно что то менять.
+Там где есть скобочки их тоже нужно копировать!
+библиатека тригеров для заполнения договоров:
+
+(allSumInEURWord  - Вся сумма договора в ЕВРО прописью
+(allSumInBYNWord  - Вся сумма договора в Белках прописью
+(prepaymentOr10PercentSumWord   - сумма предоплаты(10%) прописью в евро
+(payUpTo50PercentSumWord   - второй платеж до 50% в евро ПРОПИСЬЮ
+(payUpTo100PercentSumWord   - Третий платеж в евро до 100%
+NumberContract   - Номер договора (его же добавляем в Upsale только дописавываем /1
+fullNameClient   - Полностью расписаное ФИО 
+miniNameClient    -  Фамилия И.О.
+numberPassport    - номер паспорта МР2133131
+issuedByPassport   - Кем выдан паспорт
+whenIssued         -  Когда выдан паспорт Дата
+identificationNumber  -  Индификационый номер 
+addressRegistration   - Андрес где прописан клиент
+addressDelivery      - Адрес куда доставляем кухню
+numberPhoneClient    - Мобильный номер клиента
+fullNameSalesManager  - Полное ФИО дизайнера
+miniSalesManager      - Фамилия И.О.
+numberPowerOfAttorney  - номер доверености
+datePowerOfAttorney    - дата когда выдали
+dateCreateContract    -  дата создания договора
+timeProduction        - время за которое сделаем кухню 14 до 25 дней или 21 до 35 дней
+allSumInEUR         - вся сумма в евро ЦИФРАМИ
+allSumInBYN         - вся сумма в белках ЦИФРАМИ
+prepaymentOr10PercentSum   - Предоплата (10%) цифрами
+payUpTo50PercentSum        - доплата до 50% цифрами
+payUpTo100PercentSum       - доплата до 100% цифрами
+
+
+
+(allSumUpSaleInBYNWord      - вся сумма UpSale ПРОПИСЬЮ
+(prepaymentUpSaleWord	    - Предоплата Upsale ПРОПИСЬЮ
+(payUpTo100percentUpSaleWord  - Оплата до 100% UpSale ПРОПИСЬЮ
+dateCreateUpSaleContract      -Дата создания договора UpSale
+allSumUpSaleInBYN             - Вся сумма договора ЦИФРАМИ
+prepaymentUpSale	      - Предоплата ЦИФРАМИ
+payUpTo100percentUpSale	      - Доплата до 100% Цифрами
+
+Название техники			Количество		Цена уже с учетом скидки
+additionalProducts0              additionalProductsCount0      additionalProductsWithDiscount0
+additionalProducts1              additionalProductsCount1      additionalProductsWithDiscount1
+additionalProducts2              additionalProductsCount2      additionalProductsWithDiscount2
+additionalProducts3              additionalProductsCount3      additionalProductsWithDiscount3
+additionalProducts4              additionalProductsCount4      additionalProductsWithDiscount4
+additionalProducts5              additionalProductsCount5      additionalProductsWithDiscount5
+
+
+(allSumInEURSupplementaryAgreementWord - ВСЯ сумма в ЕВРО доп соглашения ПРОПИСЬЮ
+(allSumInBYNSupplementaryAgreementWord - ВСЯ сумма В белках доп соглашения ПРОПИСЬЮ
+(prepaymentOr10PercentSumSupplementaryAgreementWord  - Предоплата в евро ПРОПИСЬЮ
+(payUpTo50PercentSumSupplementaryAgreementWord  - Доплата до 50% В ЕВРО ПРОПИСЬЮ
+(payUpTo100PercentSumSupplementaryAgreementWord  - Доплата до 100% в евро ПРОПИСЬЮ
+allSumInEURSupplementaryAgreement   -Вся сумма В евро ЦИФРАМИ
+allSumInBYNSupplementaryAgreement   - Вся сумма в Белках ЦИФРАМИ
+prepaymentOr10PercentSumSupplementaryAgreement - Предоплата в евро ЦИФРАМИ
+payUpTo50PercentSumSupplementaryAgreement - Доплата до 50% ЦИФРАМИ
+payUpTo100PercentSumSupplementaryAgreement  - Доплата до 100% ЦИФРАМИ 
+dateCreateSupplementaryAgreementBasicContract  - Дата создания доп соглашения
+numberSupplementaryAgreementBasicContract   - номер доп соглашения(как правило он 1 очень редко появляется второе доп соглашение)
+
+(sumUpSaleInBYNSupplementaryAgreementWord        - Вся сумма доп соглашение по UPSALE ПРОПИСЬЮ
+(prepaymentUpSaleSupplementaryAgreementWord      - Предоплата(10%) по доп соглашению Upsale ПРОПИСЬЮ
+(payUpTo100PercentSupplementaryAgreementUpSaleWord - Доплата до 100% доп соглашению UpSale ПРОПИСЬЮ
+dateCreateSupplementaryAgreementUpSaleContract    - Дата создания доп соглашения ПРописью
+numberSupplementaryAgreementUpSale                - Номер доп соглашения UpSale как правило он 1 второй появляется очень редко
+sumUpSaleInBYNSupplementaryAgreement   - Вся сумма доп соглашения ЦИФРАМИ
+prepaymentUpSaleSupplementaryAgreement  -Предоплата ЦИФРАМИ
+payUpTo100PercentSupplementaryAgreementUpSale   - Доплата до 100% ЦИФРАМИ
+
+Название текники                                         Количество техники                                     Цена со скидкой техники
+supplementaryAgreementAdditionalProducts0         supplementaryAgreementAdditionalProductsCount0         supplementaryAgreementAdditionalProductsWithDiscount0
+supplementaryAgreementAdditionalProducts1         supplementaryAgreementAdditionalProductsCount1         supplementaryAgreementAdditionalProductsWithDiscount1
+supplementaryAgreementAdditionalProducts2         supplementaryAgreementAdditionalProductsCount2         supplementaryAgreementAdditionalProductsWithDiscount2
+supplementaryAgreementAdditionalProducts3         supplementaryAgreementAdditionalProductsCount3         supplementaryAgreementAdditionalProductsWithDiscount3
+supplementaryAgreementAdditionalProducts4         supplementaryAgreementAdditionalProductsCount4         supplementaryAgreementAdditionalProductsWithDiscount4
+supplementaryAgreementAdditionalProducts5         supplementaryAgreementAdditionalProductsCount5         supplementaryAgreementAdditionalProductsWithDiscount5
+
+
+
+
